@@ -17,5 +17,17 @@ end
 def introduce_self
   puts "Hello humans, my name is #{name}, I am #{age} years old, and you'll rule the day you crossed me!"
 end 
-test_gnome = GardenGnome.new("Gary", 2142, "yes", "evil"," " )
-puts test_gnome.hat_color
+test_gnome1 = GardenGnome.new("Walter the Worst", 2142, true, "evil"," " )
+test_gnome2 = GardenGnome.new("James the Jerk", 3421, false, " ", " ")
+test_gnome3 = GardenGnome.new("Alfred the Abhorrent", 579, true, " ", " ")
+puts "GNOME 1:"
+puts test_gnome1.name
+puts " "
+puts "GNOME 2:"
+puts test_gnome2.name
+puts test_gnome2.age
+puts " "
+puts "GNOME 3:"
+puts test_gnome3.name
+puts test_gnome3.age
+puts test_gnome3.gluten_allergy
