@@ -1,8 +1,8 @@
 class GardenGnome
-  attr_accessor :names, :ages, :gluten_allergy, :personality, :hat_color
-  def initialize( names, ages, gluten_allergy, personality, hat_color)
-    @names = names
-    @ages = ages
+  attr_accessor :name, :age, :gluten_allergy, :personality, :hat_color
+  def initialize(name, age, gluten_allergy, personality, hat_color)
+    @name = name
+    @age = age
     @gluten_allergy = gluten_allergy
     @personality = "evil"
     @hat_color = hat_color
