@@ -8,3 +8,4 @@ class GardenGnome
     @hat_color = hat_color
   end 
 end 
+test_gnome = GardenGnome.new 
