@@ -5,8 +5,9 @@ class GardenGnome
     @age = age
     @gluten_allergy = gluten_allergy
     @personality = "evil"
-    @hat_color = hat_color
+    @hat_color = "red"
   end 
 end 
-test_gnome = GardenGnome.new("Gary", 2142, "yes", "evil", "red")
+
+test_gnome = GardenGnome.new("Gary", 2142, "yes", "evil", )
 puts test_gnome.name
