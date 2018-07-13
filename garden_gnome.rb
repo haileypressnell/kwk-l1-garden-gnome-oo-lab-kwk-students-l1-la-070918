@@ -9,5 +9,5 @@ class GardenGnome
   end 
 end 
 
-test_gnome = GardenGnome.new("Gary", 2142, "yes", "evil", )
+test_gnome = GardenGnome.new("Gary", 2142, "yes", "evil"," " )
 puts test_gnome.name
